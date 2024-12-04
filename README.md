@@ -23,11 +23,11 @@ This study aims to bridge the gap between traditional and Web3-enabled learning 
 
 ### **Meta Data Information**
 
-- **UDAO Daily Data**
+#### **UDAO Daily Data**
 
 The first dataset consists of daily price and volume data for the UDAO token, downloaded directly from CoinMarketCap. The dataset includes fields such as opening price, closing price, daily high, daily low, trading volume, and timestamp. It provides a comprehensive view of UDAO's market performance and was retrieved from the official UDAO page on CoinMarketCap: *https://coinmarketcap.com/currencies/udao/*.
 
-- **User Messages from Discord Channels**
+#### **User Messages from Discord Channels**
 
 The second dataset comprises user messages extracted from two Discord channels.The data was collected using the open-source tool DiscordExplorer: *https://github.com/mdawsonuk/DiscordExplorer*. This dataset includes message content, timestamps, and user sentiment, enabling both sentiment and topic analysis.
 - The #motivation channel in the Study Together Discord community, focusing on discussions about learning motivation and challenges.
