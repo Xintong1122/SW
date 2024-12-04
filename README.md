@@ -17,7 +17,7 @@ This study aims to bridge the gap between traditional and Web3-enabled learning 
 ## Research Questions
 
 - **RQ1:** What are the key motivational challenges faced by users in traditional learning communities such as Study Together?
-- **RQ2:** How can UDAO’s Web3 incentive mechanisms effectively address these challenges?
+- **RQ2:** How can newly developed Web3 study platforms such as UDAO’s incentive mechanisms effectively address these challenges?
 
 ## Data
 
