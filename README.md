@@ -1,7 +1,5 @@
 # Campus Intelligent Web3 Ecosystem - Exploring Motivation Gaps and Web3 Incentives in Learning Communities
-Duke Kunshan University Signature Work 2025
-
-## Abstract
+*Duke Kunshan University Signature Work 2025*
 
 ## Background
 Motivation is a cornerstone of successful learning, yet many traditional online learning communities struggle to sustain learner engagement. Platforms like Study Together, one of the largest study and productivity communities on Discord, highlight this challenge. Through its #motivation channel, users share their learning experiences, challenges, and strategies, revealing gaps in motivation and the need for more effective incentive mechanisms.
@@ -20,9 +18,11 @@ This study aims to identify motivational gaps in traditional learning communitie
 ### **Meta Data Information**
 
 **1. UDAO Daily Data**
+
 The first dataset consists of daily price and volume data for the UDAO token, downloaded directly from CoinMarketCap. The dataset includes fields such as opening price, closing price, daily high, daily low, trading volume, and timestamp. It provides a comprehensive view of UDAO's market performance and was retrieved from the official UDAO page on CoinMarketCap: *https://coinmarketcap.com/currencies/udao/*.
 
 **2. User Messages from Discord Channels**
+
 The second dataset comprises user messages extracted from two Discord channels.The data was collected using the open-source tool DiscordExplorer: *https://github.com/mdawsonuk/DiscordExplorer*. This dataset includes message content, timestamps, and user sentiment, enabling both sentiment and topic analysis.
 - The #motivation channel in the Study Together Discord community, focusing on discussions about learning motivation and challenges.
 - The #suggestion channel in the UDAO Official Discord server, where users provide feedback and suggestions regarding the UDAO platform. 
@@ -64,14 +64,14 @@ The second dataset comprises user messages extracted from two Discord channels.T
 |--------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **Price**   | Calculates representative prices, daily percentage changes, and visualizes price trends and trading volumes.      |
 | **Data Loading and Cleaning**   | Processes message content, timestamps, and reactions for sentiment and topic modeling.                            |
-| **UDAO Suggestion**       | - Word Frequency Analysis.                                                   |
-|                          | - Topic Analysis.                                         |
-|                          | - Network Analysis.                                           |
-| **Study Together Motivation**       | - Word Frequency Analysis.                                                   |
-|                          | - Topic Analysis.                                         |
-|                          | - Network Analysis.                                           |
+| **UDAO Suggestion**       | Word Frequency Analysis.                                                   |
+|                          | Topic Analysis.                                         |
+|                          | Network Analysis.                                           |
+| **Study Together Motivation**       | Word Frequency Analysis.                                                   |
+|                          | Topic Analysis.                                         |
+|                          | Network Analysis.                                           |
 
-## Result
+## Insights
 
 ### Study Together Community Motivation
 
@@ -148,5 +148,8 @@ The second dataset comprises user messages extracted from two Discord channels.T
 - **Mentors:** Prof. Luyao Zhang, Duke Kunshan University.
 
 ## Resources
+
+- https://udao.org/
+
 
 
