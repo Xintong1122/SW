@@ -23,11 +23,11 @@ This study aims to bridge the gap between traditional and Web3-enabled learning 
 
 ### **Meta Data Information**
 
-**1. UDAO Daily Data**
+- **UDAO Daily Data**
 
 The first dataset consists of daily price and volume data for the UDAO token, downloaded directly from CoinMarketCap. The dataset includes fields such as opening price, closing price, daily high, daily low, trading volume, and timestamp. It provides a comprehensive view of UDAO's market performance and was retrieved from the official UDAO page on CoinMarketCap: *https://coinmarketcap.com/currencies/udao/*.
 
-**2. User Messages from Discord Channels**
+- **User Messages from Discord Channels**
 
 The second dataset comprises user messages extracted from two Discord channels.The data was collected using the open-source tool DiscordExplorer: *https://github.com/mdawsonuk/DiscordExplorer*. This dataset includes message content, timestamps, and user sentiment, enabling both sentiment and topic analysis.
 - The #motivation channel in the Study Together Discord community, focusing on discussions about learning motivation and challenges.
@@ -66,16 +66,41 @@ The second dataset comprises user messages extracted from two Discord channels.T
 
 ### **Code Description**
 
-| **Section**              | **Description**                                                                                                    |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **Price**   | Calculates representative prices, daily percentage changes, and visualizes price trends and trading volumes.      |
-| **Data Loading and Cleaning**   | Processes message content, timestamps, and reactions for sentiment and topic modeling.                            |
-| **UDAO Suggestion**       | Word Frequency Analysis.                                                   |
-|                          | Topic Analysis.                                         |
-|                          | Network Analysis.                                           |
-| **Study Together Motivation**       | Word Frequency Analysis.                                                   |
-|                          | Topic Analysis.                                         |
-|                          | Network Analysis.                                           |
+<table>
+  <tr>
+    <th>Section</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Price</td>
+    <td>Calculates representative prices, daily percentage changes, and visualizes price trends and trading volumes.</td>
+  </tr>
+  <tr>
+    <td>Data Loading and Cleaning</td>
+    <td>Processes message content, timestamps, and reactions for sentiment and topic modeling.</td>
+  </tr>
+  <tr>
+    <td rowspan="3">UDAO Suggestion</td>
+    <td>Word Frequency Analysis.</td>
+  </tr>
+  <tr>
+    <td>Topic Analysis.</td>
+  </tr>
+  <tr>
+    <td>Network Analysis.</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Study Together Motivation</td>
+    <td>Word Frequency Analysis.</td>
+  </tr>
+  <tr>
+    <td>Topic Analysis.</td>
+  </tr>
+  <tr>
+    <td>Network Analysis.</td>
+  </tr>
+</table>
+
 
 ## Insights
 
